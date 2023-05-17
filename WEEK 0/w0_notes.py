@@ -65,4 +65,12 @@ print (x+y)
 
 print(int(input("What's your x? "))+int(input("What's your y? ")))
 
+
+'''
+17/05/2023 (xx minutes)
+Start: Float
+End: 
+'''
+
 #Now we gonna see some similar as int, it's gonna be the FLOAT (the one that i usually use on arcmap)
+
