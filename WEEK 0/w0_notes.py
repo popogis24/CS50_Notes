@@ -67,10 +67,78 @@ print(int(input("What's your x? "))+int(input("What's your y? ")))
 
 
 '''
-17/05/2023 (xx minutes)
+17/05/2023 (1h 15min)
 Start: Float
-End: 
+End: Defining Functions
 '''
 
 #Now we gonna see some similar as int, it's gonna be the FLOAT (the one that i usually use on arcmap)
 
+x = float(input ("What's x? "))
+y = float(input ("What's y? "))
+z = round(x+y) #this function allows me to round numbers round(number[, ndigits])
+
+print (z)
+
+# if i want the float number formatted with thousand separators, i have to script like this
+
+x = float(input ("What's x? "))
+y = float(input ("What's y? "))
+z = round(x+y) 
+
+print (f'{z:,}')
+
+#if you want to determine how much decimal digits in your float, u should do this
+
+
+x = float(input ("What's x? "))
+y = float(input ("What's y? "))
+z = round(x/y, 4) #here we code to receive 4 decimal digits
+
+print (z)
+
+#or you can do like this
+
+x = float(input ("What's x? "))
+y = float(input ("What's y? "))
+z = (x/y) 
+
+print (f'{z:.2f}')#here we code to receive 2 decimal digits
+
+#Now we gonna work with def (FUNCTIONS)
+
+#here is an exemple of function without parameter
+name = input("What's your name? ")
+
+def hello():
+    if name == 'Eduarda':
+        return print('hello eduarda')
+    if name == 'maria':
+        return print('hello maria')
+    else:
+        return 'who r u?'
+x = hello()
+print (x)
+    
+#here is an exemplo using a parameter
+
+def hello(to):
+    print('Hello,', to)
+
+name = input("What's your name? ")
+hello(name) #here i transformed my incognite (to) into my variable (name), so that's why in Expression on field calculator we used the function name with the relative field name in ()
+
+#this next step is to determine a default parameter to our funcion
+
+def hello(to='world'):
+    print ('hello', to)
+
+hello()
+name = input("What's your name? ")
+hello(name)
+
+'''
+18/05/2023 (xx )
+Start: Scope
+End: (...)
+'''
