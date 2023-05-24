@@ -138,7 +138,18 @@ name = input("What's your name? ")
 hello(name)
 
 '''
-18/05/2023 (xx )
+23/05/2023 (xx)
 Start: Scope
-End: (...)
+End: Conclusions
 '''
+
+#Now we gonna learn about return values
+
+def main():
+    x = int(input("What's the x? ")) #here we convert any number to integer
+    print("x squared is", square(x)) #square means x²
+    
+def square(n):
+    return n*n # or it can be n**2, or pow(n,2)
+
+main()
