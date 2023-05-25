@@ -138,7 +138,7 @@ name = input("What's your name? ")
 hello(name)
 
 '''
-23/05/2023 (xx)
+23/05/2023 (30 minutes)
 Start: Scope
 End: Conclusions
 '''
